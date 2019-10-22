@@ -1,0 +1,33 @@
+﻿capital = 292
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
+create_country_leader = {
+	name = "Dhareef el-Parsa"
+	desc = "POLITICS_ABDULAZIZ_DESC"
+	picture = "Portrait_Saudi_Arabia_Dhareef_el_Parsa.dds"
+	expire = "1965.1.1"
+	ideology = militarism
+	traits = {
+		#
+	}
+}

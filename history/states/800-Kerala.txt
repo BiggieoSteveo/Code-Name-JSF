@@ -1,0 +1,32 @@
+state={
+	id=800
+	name="Kerala"
+
+	state_category = rural
+	resources={
+		rubber=2
+	}
+	history={
+		owner = KER
+		add_core_of = RAJ
+		add_core_of = IRI
+		add_core_of = DCI
+		add_core_of = KER
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			industrial_complex = 1
+		}
+		victory_points = {
+			2050 1
+		}
+
+	}
+
+	provinces={
+		1321 1238 7447 7391 10190
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

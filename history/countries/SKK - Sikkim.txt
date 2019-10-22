@@ -1,0 +1,35 @@
+capital = 443
+set_politics = {
+	ruling_party = technocracy
+	last_election = "4000.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
+set_stability = 0.8
+set_war_support = 0.56
+create_country_leader = {
+	name = "INDRA-5 Maintenance Team"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "gfx/leaders/SKK/portrait_SKK_maintenance_team.dds"
+	expire = "4000.1.1"
+	ideology = technocracy_subtype
+	traits = {
+		
+	}
+}

@@ -1,0 +1,27 @@
+﻿
+
+add_namespace =  Wire_Intro_News
+
+
+
+news_event = {
+	id = static_OBAMA_news.1
+	title = Wire_Intro_News.1.t  
+	desc = Wire_Intro_News.1.d
+	picture = GFX_news_event_german_speech
+	immediate = { log = "[GetDateText]: [Root.GetName]: Wire_Intro_News.1" }
+	
+	#major = yes	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = Wire_Intro_News_read
+	}
+	
+	option = {
+		name = Wire_Intro_News.1.a	
+	}
+	
+	
+
+}

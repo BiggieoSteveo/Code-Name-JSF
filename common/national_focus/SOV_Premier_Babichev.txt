@@ -1,0 +1,244 @@
+focus_tree = {
+	id = SOV_Premier_Babichev
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = SOV_Premier_Babichev
+		icon = GFX_focus_SOV_Premier_Babichev
+		cost = 10.00
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = SOV_spring_cleaning
+		icon = SOV_Premier_Babichev
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_Premier_Babichev
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = SOV_wipe_away_corruption
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_spring_cleaning
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SOV_start_investigations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_wipe_away_corruption
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = SOV_investigate_the_party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_start_investigations
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = SOV_investigate_the_mgb
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_start_investigations
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = SOV_investigate_the_ministries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_investigate_the_party
+		}
+		prerequisite = {
+			focus = SOV_investigate_the_mgb
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = SOV_investigate_the_cabinet
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_investigate_the_mgb
+		}
+		prerequisite = {
+			focus = SOV_investigate_the_party
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = SOV_investigate_the_military
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_investigate_the_mgb
+		}
+		prerequisite = {
+			focus = SOV_investigate_the_party
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = SOV_corruption_busters
+		icon = 
+		cost = 10.00
+		prerequisite = {focus = SOV_investigate_the_cabinet}
+		prerequisite = {focus = SOV_investigate_the_ministries}
+		prerequisite = {focus = SOV_investigate_the_military}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = SOV_throw_away_red_tape
+		icon = GFX_focus_SOV_cutting_red_tape
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_spring_cleaning
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = SOV_clear_up_shelves
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_throw_away_red_tape
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = SOV_save_on_ink
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_throw_away_red_tape
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = SOV_store_away_chairs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_throw_away_red_tape
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = SOV_reduce_wait_time
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_clear_up_shelves
+		}
+		prerequisite = {
+			focus = SOV_save_on_ink
+		}
+		prerequisite = {
+			focus = SOV_store_away_chairs
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = SOV_easy_permits
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_clear_up_shelves
+		}
+		prerequisite = {
+			focus = SOV_save_on_ink
+		}
+		prerequisite = {
+			focus = SOV_store_away_chairs
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = SOV_burn_old_files
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_reduce_wait_time
+		}
+		prerequisite = {
+			focus = SOV_easy_permits
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = SOV_a_small_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_burn_old_files
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = SOV_trotskys_legacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_corruption_busters
+		}
+		prerequisite = {
+			focus = SOV_a_small_bureaucracy
+		}
+		x = 13
+		y = 8
+
+	}
+}

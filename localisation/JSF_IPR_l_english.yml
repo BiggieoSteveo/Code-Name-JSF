@@ -1,0 +1,30 @@
+﻿l_english:
+ 
+ ###Country Names###
+ IPR_cluster:0 "Cluster Empire"
+ IPR_cluster_DEF:0 "The Cluster Empire"
+ IPR_cluster_ADJ:0 "Cluster"
+ IPR_internationalism:0 "Indian People's Republic"
+ IPR_internationalism_ADJ:0 "Indian"
+ IPR_neo-bolshevism:0 "Indian People's Republic"
+ IPR_neo-bolshevism_ADJ:0 "Indian"
+ IPR_technocracy:0 "Indian People's Republic"
+ IPR_technocracy_ADJ:0 "Indian"
+ IPR_social_liberalism:0 "Indian People's Republic"
+ IPR_social_liberalism_ADJ:0 "Indian"
+ IPR_social_conservatism:0 "Indian People's Republic"
+ IPR_social_conservatism_ADJ:0 "Indian"
+ IPR_reactionary:0 "Indian People's Republic"
+ IPR_reactionary_ADJ:0 "Indian"
+ IPR_corporatism:0 "Indian People's Republic"
+ IPR_corporatism_ADJ:0 "Indian"
+ IPR_autocracy:0 "Indian People's Republic"
+ IPR_autocracy_ADJ:0 "Indian"
+ IPR_ultranationalism:0 "Indian People's Republic"
+ IPR_ultranationalism_ADJ:0 "Indian"
+ IPR_supremacism:0 "Indian People's Republic"
+ IPR_supremacism_ADJ:0 "Indian"
+ IPR_death_cultism:0 "Death Cult Indian People's Republic"
+ IPR_death_cultism_ADJ:0 "Indian"
+ 
+ ###Political Parties###

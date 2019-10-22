@@ -1,0 +1,33 @@
+capital = 428
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
+create_country_leader = {
+	name = "Husseyn Mohammed Qazi"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "Portrait_IRI_Husseyn_Qazi.dds"
+	expire = "4000.1.1"
+	ideology = autocracy_subtype
+	traits = {
+		
+	}
+}

@@ -1,0 +1,36 @@
+capital = 443
+set_politics = {
+	ruling_party = social_liberalism
+	last_election = "4000.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
+set_stability = 0.37
+set_war_support = 0.72
+
+create_country_leader = {
+	name = "Devansh Karpe"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "Portrait_INC_Devansh_Karpe.dds"
+	expire = "4000.1.1"
+	ideology = social_liberalism_subtype
+	traits = {
+		
+	}
+}

@@ -1,0 +1,119 @@
+﻿capital = 64
+set_politics = {
+	ruling_party = internationalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 0
+		internationalism = 15		
+		anarchism = 13		
+		neo-bolshevism = 15
+		technocracy = 9
+		progressivism = 5
+		social_liberalism = 6
+		social_conservatism = 9
+		reactionary = 10
+		corporatism = 5
+		autocracy = 2
+		ultranationalism = 6
+		supremacism = 4
+		death_cultism = 1
+}
+create_country_leader = {
+	name = "Joachim Klemm"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = anarcho_communism
+	traits = { }
+}
+create_country_leader = {
+	name = "Ludwig Betzel"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Germany_Ludwig_Betzel.dds"
+	expire = "1965.1.1"
+	ideology = permanent_revolutionary_socialism
+	traits = { }
+}
+create_country_leader = {
+	name = "Heinrich Gost"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Germany_Heinrich_Gost.dds"
+	expire = "1965.1.1"
+	ideology = neo-bolshevist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Dr. Friedrich Hullmen"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = robotic_socialism
+	traits = { }
+}
+create_country_leader = {
+	name = "Wilbert Getchz"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = { }
+}
+create_country_leader = {
+	name = "Hans Gersch"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = social_liberalism_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Kristopher Wrighte"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = national_conservatism
+	traits = { }
+}
+create_country_leader = {
+	name = "Luitpold Karlz"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = { }
+}
+create_country_leader = {
+	name = "Henrik Jansen"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = corporatist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Hermann Osten"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = autocracy_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Martin Wertheim"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = ###tbd
+	expire = "1965.1.1"
+	ideology = ultranationalism_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Maja Dahlke"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Germany_Maja_Dahlke.dds"
+	expire = "1965.1.1"
+	ideology = supremacism_subtype
+	traits = { }
+}

@@ -1,0 +1,67 @@
+﻿capital = 219
+set_politics = {
+	ruling_party = internationalism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+		cluster = 7
+		internationalism = 7		
+		anarchism = 7		
+		neo-bolshevism = 7
+		technocracy = 7
+		progressivism = 7
+		social_liberalism = 8
+		social_conservatism = 8
+		reactionary = 7
+		corporatism = 7
+		autocracy = 7
+		ultranationalism = 7
+		supremacism = 7
+		death_cultism = 7
+}
+create_country_leader = {
+	name = "Sviatoslav Babichev"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Soviet_Sviatoslav_Babichev.dds"
+	expire = "1965.1.1"
+	ideology = proletarian_internationalism
+	traits = { }
+}
+create_country_leader = {
+	name = "Leginov Veniman"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Soviet_Leginov_Veniman.dds"
+	expire = "1965.1.1"
+	ideology = neo-bolshevist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Roksana Kovalevskaya"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Soviet_Roksana_Kovalevskaya.dds"
+	expire = "1965.1.1"
+	ideology = supremacism_subtype
+	traits = { }
+}
+create_faction = Interform
+add_to_faction = SOV
+add_to_faction = EST
+add_to_faction = LAT
+add_to_faction = LIT
+add_to_faction = BLR
+add_to_faction = UKR
+add_to_faction = GEO
+add_to_faction = ARM
+add_to_faction = AZR
+add_to_faction = KAZ
+add_to_faction = UZB
+add_to_faction = KYR
+add_to_faction = TAJ
+add_to_faction = TMS
+add_to_faction = GER
+add_to_faction = POL
+add_to_faction = AUS
+add_to_faction = HUN
+add_to_faction = CSL
