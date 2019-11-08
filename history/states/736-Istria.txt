@@ -8,8 +8,8 @@ state={
 		victory_points = {
 			6626 1 
 		}
-		owner = SLV
-		add_core_of = SLV
+		owner = YUG
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 2
 			6626 = {

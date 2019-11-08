@@ -77,3 +77,15 @@ create_country_leader = {
 	ideology = death_cultism_subtype
 	traits = { }
 }
+create_faction = NATO
+add_to_faction = ENG
+add_to_faction = FRA
+add_to_faction = SAF
+add_to_faction = ITA
+add_to_faction = BEL
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = CAN
+add_to_faction = SPR
+add_to_faction = NOR
+add_to_faction = HOL

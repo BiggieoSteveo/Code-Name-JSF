@@ -1,43 +1,10 @@
 
 ideologies = {
 
-	cluster = {
-		types = {
-		CLUSTER_subtype = {}
-		
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_CLUSTER_1"
-			"FACTION_NAME_CLUSTER_2"
-			"FACTION_NAME_CLUSTER_3"
-			"FACTION_NAME_CLUSTER_4"
-			"FACTION_NAME_CLUSTER_5"
-			"FACTION_NAME_CLUSTER_6"
-		}
-		color = { 79 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes			
-		can_be_boosted = no
-	}
-	
 	anarchism = {
 		types = {
 			anarchism_subtype = {}
-			anarcho-primitivism = {}
-			anarcha-feminism = {}
-			anarcho-naturism = {}
-			anarcho-communism = {}
-			anarcho-syndicalism = {}
+			lawlessness = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_ANARCHISM_1"
@@ -47,39 +14,7 @@ ideologies = {
 			"FACTION_NAME_ANARCHISM_5"
 			"FACTION_NAME_ANARCHISM_6"
 		}
-		color = { 105 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-
-	}
-	
-	internationalism = {
-		types = {
-			internationalist_subtype = {}
-			permanent_revolutionary_socialism = {}
-			proletarian_internationalism = {}
-			}
-		dynamic_faction_names = {
-			"FACTION_NAME_INTERNATIONALISM_1"
-			"FACTION_NAME_INTERNATIONALISM_2"
-			"FACTION_NAME_INTERNATIONALISM_3"
-			"FACTION_NAME_INTERNATIONALISM_4"
-			"FACTION_NAME_INTERNATIONALISM_5"
-			"FACTION_NAME_INTERNATIONALISM_6"
-		}
-		color = { 169 17 0 }
+		color = { 28 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -101,9 +36,8 @@ ideologies = {
 		types = {
 			neo-bolshevist_subtype = {}
 			totalitarian_socialism = {}
-			religious_socialism = {}
+			national_communism = {}
 			agrarian_socialism = {}
-			syndicalism = {}
 			african_socialism = {}
 			arab_socialism = {}
 		}
@@ -115,7 +49,7 @@ ideologies = {
 			"FACTION_NAME_NEO_BOLSHEVISM_5"
 			"FACTION_NAME_NEO_BOLSHEVISM_6"
 		}
-		color = { 237 28 36 }
+		color = { 77 2 2 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -132,32 +66,34 @@ ideologies = {
 		can_be_boosted = no
 
 	}
-	
-	technocracy = {
+
+	internationalism = {
 		types = {
-			technocracy_subtype = {}
-			robotic_democracy = {}
-			robotic_socialism = {}
-		}
+			internationalist_subtype = {}
+			permanent_revolutionary_socialism = {}
+			proletarian_internationalism = {}
+			syndicalism = {}
+			}
 		dynamic_faction_names = {
-			"FACTION_NAME_TECHNOCRACY_1"
-			"FACTION_NAME_TECHNOCRACY_2"
-			"FACTION_NAME_TECHNOCRACY_3"
-			"FACTION_NAME_TECHNOCRACY_4"
-			"FACTION_NAME_TECHNOCRACY_5"
-			"FACTION_NAME_TECHNOCRACY_6"
+			"FACTION_NAME_INTERNATIONALISM_1"
+			"FACTION_NAME_INTERNATIONALISM_2"
+			"FACTION_NAME_INTERNATIONALISM_3"
+			"FACTION_NAME_INTERNATIONALISM_4"
+			"FACTION_NAME_INTERNATIONALISM_5"
+			"FACTION_NAME_INTERNATIONALISM_6"
 		}
-		color = { 218 44 67 }
+		color = { 102 4 4 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
 			can_join_factions = no
 			can_send_volunteers = yes
-		}
+		}		
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
-			industrial_capacity_factory = 0.05
+			generate_wargoal_tension = 0.25
+			ai_get_ally_desire_factor = -500
+			production_speed_buildings_factor = 0.05
 		}
 		ai_neutral = yes	
 		can_be_boosted = no
@@ -178,7 +114,7 @@ ideologies = {
 			"FACTION_NAME_PROGRESSIVISM_5"
 			"FACTION_NAME_PROGRESSIVISM_6"
 		}
-		color = { 184 37 107 }
+		color = { 145 63 63 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -211,7 +147,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_LIBERAL_5"
 			"FACTION_NAME_SOCIAL_LIBERAL_6"
 		}
-		color = { 51 102 204 } 
+		color = { 152 136 45 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -242,7 +178,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATISM_5"
 			"FACTION_NAME_SOCIAL_CONSERVATISM_6"
 		}
-		color = { 0 0 153 }
+		color = { 45 65 152 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -264,6 +200,7 @@ ideologies = {
 			authoritarian_democracy = {}
 			oligarchism = {}
 			absolutism = {}
+			islamic_democracy = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REACTIONARY_1"
@@ -273,7 +210,7 @@ ideologies = {
 			"FACTION_NAME_REACTIONARY_5"
 			"FACTION_NAME_REACTIONARY_6"
 		}
-		color = { 77 93 83 }
+		color = { 80 82 92 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -289,50 +226,22 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	corporatism = {
+	despotism = {
 		types = {
-			corporatist_subtype = {}
-			plutocracy = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_CORPORATIST_1"
-			"FACTION_NAME_CORPORATIST_2"
-			"FACTION_NAME_CORPORATIST_3"
-			"FACTION_NAME_CORPORATIST_4"
-			"FACTION_NAME_CORPORATIST_5"
-			"FACTION_NAME_CORPORATIST_6"
-		}
-		color = { 234 175 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
-			industrial_capacity_factory = 0.05
-		}
-		ai_neutral = yes		
-		can_be_boosted = no
-	}
-	
-	autocracy = {
-		types = {
-			autocracy_subtype = {}
+			despotism_subtype = {}
 			militarism = {}
+			salafism = {}
 			
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTOCRACY_1"
-			"FACTION_NAME_AUTOCRACY_2"
-			"FACTION_NAME_AUTOCRACY_3"
-			"FACTION_NAME_AUTOCRACY_4"
-			"FACTION_NAME_AUTOCRACY_5"
-			"FACTION_NAME_AUTOCRACY_6"
+			"FACTION_NAME_DESPOTISM_1"
+			"FACTION_NAME_DESPOTISM_2"
+			"FACTION_NAME_DESPOTISM_3"
+			"FACTION_NAME_DESPOTISM_4"
+			"FACTION_NAME_DESPOTISM_5"
+			"FACTION_NAME_DESPOTISM_6"
 		}
-		color = { 38 38 38 }
+		color = { 22 22 22 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -351,12 +260,15 @@ ideologies = {
 	ultranationalism = {
 		types = {
 			ultranationalism_subtype = {}
-			fanaticism = {}
+			corporatism = {}
+			national_socialism = {}
 			falangism = {}
-			estado_novo = {}
+			ultranational_collectivism = {}
 			integralism = {}
-			segregationism = {}
-			revivalism = {}
+			black_supremacism = {}
+			wahhabism = {}
+			esoteric_ultranationalism = {}
+
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ULTRANATIONALISM_1"
@@ -366,7 +278,7 @@ ideologies = {
 			"FACTION_NAME_ULTRANATIONALISM_5"
 			"FACTION_NAME_ULTRANATIONALISM_6"
 		}
-		color = { 128 64 0 }
+		color = { 42 34 14 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -382,64 +294,4 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	supremacism = {
-		types = {
-		supremacism_subtype = {}
-		national_socialism = {}
-		white_supremacism = {}
-		black_power = {}
-		radical_islamism = {}
-		
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_SUPREMACISM_1"
-			"FACTION_NAME_SUPREMACISM_2"
-			"FACTION_NAME_SUPREMACISM_3"
-			"FACTION_NAME_SUPREMACISM_4"
-			"FACTION_NAME_SUPREMACISM_5"
-			"FACTION_NAME_SUPREMACISM_6"
-		}
-		color = { 0 0 0 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			conscription = 0.005
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
-
-	death_cultism = {
-		types = {
-		death_cultism_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_DEATH_CULTISM_1"
-			"FACTION_NAME_DEATH_CULTISM_2"
-			"FACTION_NAME_DEATH_CULTISM_3"
-			"FACTION_NAME_DEATH_CULTISM_4"
-			"FACTION_NAME_DEATH_CULTISM_5"
-			"FACTION_NAME_DEATH_CULTISM_6"
-		}
-		color = { 77 0 77 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			conscription = 0.005
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-	}
 }

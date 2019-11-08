@@ -1,32 +1,27 @@
 ﻿capital = 37
 set_politics = {
-	ruling_party = internationalism
+	ruling_party = social_liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 0
+		internationalism = 1
+		progressivism = 23
+		social_liberalism = 49
+		social_conservatism = 24
+		reactionary = 2
+		despotism = 1
+		ultranationalism = 0
 }
 create_country_leader = {
 	name = "Edvin Pallesen"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Denmark_Edvin_Pallesen.dds"
 	expire = "1965.1.1"
-	ideology = internationalist_subtype
+	ideology = national_liberalism
 	traits = { }
 }

@@ -493,17 +493,17 @@ BLR = {
 }
 
 POL = {
-	color = rgb { 183 0 0 }
+	color = rgb { 157 26 26 }
 	color_ui = rgb { 138 155 116 }
 }
 
 CZE = {
-	color = rgb { 183 0 0 }
+	color = rgb { 143 49 54 }
 	color_ui = rgb { 138 155 116 }
 }
 
 HUN = {
-	color = rgb { 183 0 0 }
+	color = rgb { 118 46 46 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -553,12 +553,12 @@ ARM = {
 }
 
 DEN = {
-	color = rgb { 183 0 0 }
+	color = rgb { 98 114 130 }
 	color_ui = rgb { 138 155 116 }
 }
 
 ROM = {
-	color = rgb { 58 104 58 }
+	color = rgb { 102 4 4 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -573,7 +573,7 @@ NOR = {
 }
 
 BUL = {
-	color = rgb { 101 103 116 }
+	color = rgb { 148  45  45 }
 	color_ui = rgb { 138 155 116 }
 }
 

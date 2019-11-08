@@ -1,39 +1,27 @@
 ﻿capital = 46
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = internationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 5
+		internationalism = 85
+		progressivism = 5
+		social_liberalism = 5
+		social_conservatism = 0
+		reactionary = 0
+		despotism = 0
+		ultranationalism = 0
+
 }
 create_country_leader = {
 	name = "Cosmin Lazarescu"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Romania_Cosmin_Lazarescu.dds"
 	expire = "1965.1.1"
-	ideology = totalitarian_socialism
-	traits = { }
-}
-create_country_leader = {
-	name = "Marku Balitiu"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Romania_Marku_Balitiu.dds"
-	expire = "1965.1.1"
-	ideology = fanaticism
+	ideology = proletarian_internationalism
 	traits = { }
 }

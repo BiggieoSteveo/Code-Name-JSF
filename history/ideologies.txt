@@ -1,169 +1,120 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 parties = {
-		cluster = { 
-			popularity = 9 
-		}
 
-		internationalism = { 
-			popularity = 9 
-		}
-		
 		anarchism = { 
-			popularity = 9 
+			popularity = 10 
 		}
 		
 		neo-bolshevism = { 
-			popularity = 9 
+			popularity = 10 
 		}
-		
-		technocracy = { 
-			popularity = 9 
+
+		internationalism = { 
+			popularity = 10
 		}
 		
 		progressivism = { 
-			popularity = 9 
+			popularity = 10 
 		}
 		
 		social_liberalism = {
-			popularity = 9
+			popularity = 10
 		}
 		
 		social_conservatism = {
-			popularity = 9
+			popularity = 10
 		}
 		
 		reactionary = { 
-			popularity = 9 
+			popularity = 10 
 		}
-		
-		autocracy = { 
-			popularity = 9 
+
+		despotism = { 
+			popularity = 10 
 		}
 		
 		ultranationalism = { 
-			popularity = 9 
-		}
-		
-		supremacism = { 
-			popularity = 9 
-		}
-		
-		death_cultism = { 
-			popularity = 9 
+			popularity = 10
 		}
 =======
 parties = {
-		cluster = { 
-			popularity = 9 
-		}
 
-		internationalism = { 
-			popularity = 9 
-		}
-		
 		anarchism = { 
-			popularity = 9 
+			popularity = 10 
 		}
 		
 		neo-bolshevism = { 
-			popularity = 9 
+			popularity = 10 
 		}
-		
-		technocracy = { 
-			popularity = 9 
+
+		internationalism = { 
+			popularity = 10
 		}
 		
 		progressivism = { 
-			popularity = 9 
+			popularity = 10 
 		}
 		
 		social_liberalism = {
-			popularity = 9
+			popularity = 10
 		}
 		
 		social_conservatism = {
-			popularity = 9
+			popularity = 10
 		}
 		
 		reactionary = { 
-			popularity = 9 
+			popularity = 10 
 		}
-		
-		autocracy = { 
-			popularity = 9 
+
+		despotism = { 
+			popularity = 10 
 		}
 		
 		ultranationalism = { 
-			popularity = 9 
-		}
-		
-		supremacism = { 
-			popularity = 9 
-		}
-		
-		death_cultism = { 
-			popularity = 9 
+			popularity = 10
 		}
 >>>>>>> d2a07ce73071de826f58b5e5b5fe6b4706884dae
 =======
 set_politics = {
 
 parties = {
-		cluster = { 
-			popularity = 7 
-		}
 
-		internationalism = { 
-			popularity = 7
-		}
-		
 		anarchism = { 
-			popularity = 7 
+			popularity = 10 
 		}
 		
 		neo-bolshevism = { 
-			popularity = 7 
+			popularity = 10 
 		}
-		
-		technocracy = { 
-			popularity = 7 
+
+		internationalism = { 
+			popularity = 10
 		}
 		
 		progressivism = { 
-			popularity = 7 
+			popularity = 10 
 		}
 		
 		social_liberalism = {
-			popularity = 7
+			popularity = 10
 		}
 		
 		social_conservatism = {
-			popularity = 7
+			popularity = 10
 		}
 		
 		reactionary = { 
-			popularity = 7 
+			popularity = 10 
 		}
 
-		corporatist = { 
-			popularity = 7 
-		}
-		
-		autocracy = { 
-			popularity = 7 
+		despotism = { 
+			popularity = 10 
 		}
 		
 		ultranationalism = { 
-			popularity = 7 
-		}
-		
-		supremacism = { 
-			popularity = 7 
-		}
-		
-		death_cultism = { 
-			popularity = 7 
+			popularity = 10
 		}
 >>>>>>> fa132b6166b432dc738355e66375cab91d9464c0
 	}
