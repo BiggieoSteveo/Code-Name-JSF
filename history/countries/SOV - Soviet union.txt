@@ -5,6 +5,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 		anarchism = 0
 		neo-bolshevism = 13
@@ -17,19 +18,19 @@ set_popularities = {
 		ultranationalism = 0
 }
 create_country_leader = {
-	name = "Sviatoslav Babichev"
+	name = "Silayev Valeryevich"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Soviet_Sviatoslav_Babichev.dds"
+	picture = "Portrait_Soviet_Silayev_Valeryevich.dds"
 	expire = "1965.1.1"
 	ideology = proletarian_internationalism
 	traits = { }
 }
 create_country_leader = {
-	name = "Leginov Veniman"
+	name = "Uladimov Timofeyevich"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Soviet_Leginov_Veniman.dds"
+	picture = "Portrait_Soviet_Uladimov_Timofeyevich.dds"
 	expire = "1965.1.1"
-	ideology = neo-bolshevist_subtype
+	ideology = totalitarian_socialism
 	traits = { }
 }
 create_country_leader = {
@@ -37,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Soviet_Roksana_Kovalevskaya.dds"
 	expire = "1965.1.1"
-	ideology = suprem
+	ideology = esoteric_ultranationalism
 	traits = { }
 }
 create_faction = Interform

@@ -16,3 +16,11 @@ set_popularities = {
 		despotism = 0
 		ultranationalism = 0
 }
+create_country_leader = {
+	name = "Radenko Lazic"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_YUG_Radenko_Lazic.dds"
+	expire = "1965.1.1"
+	ideology = neo-bolshevist_subtype
+	traits = { }
+}
