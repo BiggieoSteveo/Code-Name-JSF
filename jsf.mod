@@ -1,5 +1,5 @@
 name="JSF"
-path="mod/C:/Users/stephen/Documents/Paradox Interactive/Hearts of Iron IV/mod/test/" 
+path="mod/C:/Users/stephen/Documents/Paradox Interactive/Hearts of Iron IV/mod/jsf/" 
 
 tags={
 	"Alternative History"
