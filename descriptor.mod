@@ -1,6 +1,4 @@
 name="JSF"
-path="mod/C:/Users/stephen/Documents/Paradox Interactive/Hearts of Iron IV/mod/test/" 
-
 tags={
 	"Alternative History"
 	"National Focuses"
