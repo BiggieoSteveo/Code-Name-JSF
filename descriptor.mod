@@ -1,11 +1,11 @@
-name="JSF"
+version="1.8.*"
 tags={
 	"Alternative History"
 	"National Focuses"
 	"Ideologies"
 	"Technologies"
 }
-version="1.8.1*"
+name="jsf"
 
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"

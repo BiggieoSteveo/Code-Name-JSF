@@ -1,13 +1,12 @@
-name="JSF"
-path="mod/C:/Users/stephen/Documents/Paradox Interactive/Hearts of Iron IV/mod/jsf/" 
-
+version="1.8.*"
 tags={
 	"Alternative History"
 	"National Focuses"
 	"Ideologies"
 	"Technologies"
 }
-version="1.8.1*"
+name="jsf"
+path="C:/Users/stephen/Documents/Paradox Interactive/Hearts of Iron IV/mod/jsf"
 
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"
