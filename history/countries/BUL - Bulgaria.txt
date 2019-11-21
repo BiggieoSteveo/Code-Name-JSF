@@ -9,13 +9,12 @@ set_popularities = {
 		anarchism = 0
 		neo-bolshevism = 10
 		internationalism = 80
-		progressivism = 0
+		progressivism = 10
 		social_liberalism = 0
 		social_conservatism = 0
-		reactionary = 10
+		reactionary = 0
 		despotism = 0
 		ultranationalism = 0
-		cluster = 7
 }
 create_country_leader = {
 	name = "Hrabro Filipov"

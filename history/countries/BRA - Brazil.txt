@@ -5,28 +5,23 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
+set_popularities = {		
+		anarchism = 0
+		neo-bolshevism = 25
+		internationalism = 0
+		progressivism = 5
+		social_liberalism = 12
 		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		reactionary = 0
+		despotism = 6
+		ultranationalism = 44
 }
 create_country_leader = {
 	name = "Lourenco Esperanca"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/BRA/Portrait_Brazil_Lourenco_Esperanca.dds"
 	expire = "4000.1.1"
-	ideology = integralism
+	ideology = ultra_corporatism
 	traits = {
 		
 	}
