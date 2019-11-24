@@ -12,7 +12,8 @@ state= {
 
 	history=
 	{
-		owner = WLS
+		add_core_of = ENG
+		owner = ENG
 		victory_points = { 377 5 }
 		buildings = {
 			infrastructure = 5

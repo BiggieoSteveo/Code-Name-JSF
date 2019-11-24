@@ -3,11 +3,11 @@ state={
 	id=765
 	name="STATE_765"
 	manpower = 51600
-	state_category = pastoral
+	state_category = wasteland
+	impassable = yes
 
 	history={
-		add_core_of = QAT
-		owner = QAT
+		owner = WAS
 		victory_points = {
 			8051 1
 		}

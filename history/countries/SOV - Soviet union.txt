@@ -52,3 +52,4 @@ add_to_faction = POL
 add_to_faction = HUN
 add_to_faction = CSL
 add_to_faction = BUL
+add_to_faction = DDR

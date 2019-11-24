@@ -1,23 +1,26 @@
 ﻿capital = 554
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = progressivism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 5
+		internationalism = 5
+		progressivism = 50
+		social_liberalism = 30
+		social_conservatism = 10
+		reactionary = 0
+		despotism = 0
+		ultranationalism = 0
+}
+create_country_leader = {
+	name = "Arlando Rose"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ISR_Arlando_Rose.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {}
 }

@@ -4,10 +4,11 @@ state={
 	name="STATE_778" # Upper Volta
 	manpower = 3186184
 	
-	state_category = pastoral
+	state_category = wasteland
+	impassable = yes
+
 	history={
-		owner = VOL
-		add_core_of = VOL
+		owner = WAS
 		victory_points = {
 			10836 1
 		}

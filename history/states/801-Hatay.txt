@@ -2,13 +2,13 @@ state={
 	id=801
 	name="STATE_801"
 	history={
-		owner = TUR
+		owner = UAR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 		add_core_of = TUR
-		add_core_of = SYR
+		add_core_of = UAR
 	}
 	provinces={
 		12029 

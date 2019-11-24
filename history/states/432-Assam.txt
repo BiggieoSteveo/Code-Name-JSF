@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = ASM
+		owner = IPR
+		add_core_of = IPR
 		add_core_of = ASM
 		buildings = {
 			infrastructure = 3

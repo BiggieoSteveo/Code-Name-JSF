@@ -12,10 +12,8 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
-		add_core_of = BAN
+		add_core_of = IPR
 		add_core_of = RAJ
-		add_core_of = IRI
-		add_core_of = DCI
 		buildings = {
 			infrastructure = 1
 		}

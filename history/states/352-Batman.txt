@@ -5,16 +5,16 @@ state={
 	manpower = 365490
 
 	state_category = rural
-
+	impassable = yes
+	
 	history={
-		owner = TUR
+		owner = WAS
 		victory_points = {
 			6935 1 
 		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = TUR
 	}
 
 	provinces={

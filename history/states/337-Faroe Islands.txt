@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = ICE
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			13003 = {
@@ -16,7 +16,7 @@ state=
 			}
 		}
 		add_core_of = DEN
-		add_core_of = ICE
+		add_core_of = USA
 	}
 	provinces= { 13003 }
 }

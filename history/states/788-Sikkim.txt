@@ -4,10 +4,10 @@ state={
 	name="STATE_788"
 	manpower = 2845317
 	
-	state_category = enclave
+	state_category = rural
 
 	history={
-		owner = SKK
+		owner = IPR
 		
 		victory_points = {
 			4435 20
@@ -18,12 +18,13 @@ state={
 			4435 = {
 			bunker = 8
 			}
-			arms_factory = 8
-			industrial_complex = 13
+			arms_factory = 5
+			industrial_complex = 8
 			rocket_site = 5
 			radar_station = 4
 			anti_air_building = 6
 		}
+		add_core_of = IPR
 		add_core_of = SKK
 	}
 

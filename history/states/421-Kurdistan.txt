@@ -4,14 +4,14 @@ state={
 	name="STATE_421"
 	manpower = 780278
 	
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 
 	history={
-		owner = PER
+		owner = WAS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = PER
 	}
 
 	provinces={

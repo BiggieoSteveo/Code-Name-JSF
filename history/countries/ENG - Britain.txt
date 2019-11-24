@@ -1,31 +1,59 @@
 ﻿capital = 126
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = social_conservatism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 0
+		internationalism = 0
+		progressivism = 15
+		social_liberalism = 35
+		social_conservatism = 40
+		reactionary = 10
+		despotism = 0
+		ultranationalism = 0
 }	
+create_country_leader = {
+	name = "Benedict Phillips"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ENG_Benedict_Phillips.dds"
+	expire = "1965.1.1"
+	ideology = national_conservatism
+	traits = { }
+}	
+create_country_leader = {
+	name = "Alden Sutcliffe"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ENG_Alden_Sutcliffe.dds"
+	expire = "1965.1.1"
+	ideology = neo-liberalism
+	traits = { }
+}
 create_country_leader = {
 	name = "Thomas Beswick"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_ENG_Thomas_Beswick.dds"
 	expire = "1965.1.1"
-	ideology = ultranationalism_subtype
+	ideology = ultranational_collectivism
 	traits = { }
 }
+create_country_leader = {
+	name = "Westminster"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ENG_Westminster.dds"
+	expire = "1965.1.1"
+	ideology = robotocracy
+	traits = { }
+}
+create_country_leader = {
+	name = "British Neo Bolshevik Electorate"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_ENG_British_Neo Bolshevik_Electorate.dds"
+	expire = "1965.1.1"
+	ideology = totalitarian_socialism
+	traits = { }
+}
+

@@ -2,9 +2,9 @@ state={
 	id=808
 	name="STATE_808"
 	history={
-		owner = BRM
+		owner = IPR
 		add_core_of = ASM
-		add_core_of = BRM
+		add_core_of = IPR
 		buildings = {
 			infrastructure = 2
 

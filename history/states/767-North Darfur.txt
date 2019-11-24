@@ -8,8 +8,7 @@ state=
 	impassable = yes
 	
 	history= {
-		add_core_of = SUD
-		owner = SUD
+		owner = WAS
 		buildings = {
 			infrastructure = 0
 		}

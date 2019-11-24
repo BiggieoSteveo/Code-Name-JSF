@@ -11,10 +11,10 @@ state={
 	}
 
 	history={
-		owner = DCI
+		owner = IPR
 		add_core_of = RAJ
 		add_core_of = IRI
-		add_core_of = DCI
+		add_core_of = IPR
 		buildings = {
 			infrastructure = 4
 		}

@@ -4,15 +4,15 @@ state={
 	name="STATE_658"
 	manpower = 170200
 	resources={
-		oil=5 # was: 6
+		oil=68 # was: 68
 	}
 	
-	state_category = pastoral
+	state_category = wasteland
+	impassable = yes
 
 
 	history={
-		add_core_of = UAE
-		owner = UAE
+		owner = WAS
 		victory_points = {
 			7960 1 
 		}

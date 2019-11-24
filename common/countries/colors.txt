@@ -343,7 +343,7 @@ WES = {
 }
 
 MOR = {
-	color = rgb { 119 86 39 }
+	color = rgb { 112 123 104 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -363,7 +363,7 @@ LBA = {
 }
 
 EGY = {
-	color = rgb { 179 172 133 }
+	color = rgb { 143 100 100 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -393,7 +393,7 @@ SCO = {
 }
 
 ENG = {
-	color = rgb { 38 35 31 }
+	color = rgb { 143 92 99 }
 	color_ui = rgb { 138 155 116 }
 }
 

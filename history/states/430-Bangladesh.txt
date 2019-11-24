@@ -3,7 +3,7 @@ state={
 	name="STATE_430"
 
 	history={
-		owner = BAN
+		owner = IPR
 		victory_points = {
 			11929 1 
 		}
@@ -16,6 +16,7 @@ state={
 			}
 
 		}
+		add_core_of = IPR
 		add_core_of = BAN
 
 	}

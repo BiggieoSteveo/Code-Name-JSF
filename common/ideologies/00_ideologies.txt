@@ -72,7 +72,6 @@ ideologies = {
 			internationalist_subtype = {}
 			permanent_revolutionary_socialism = {}
 			proletarian_internationalism = {}
-			syndicalism = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_INTERNATIONALISM_1"
@@ -104,7 +103,10 @@ ideologies = {
 		types = {
 			progressivism_subtype = {}
 			democratic_socialism = {}
+			libertarian_socialism = {}
+			free_market_socialism = {}
 			social_democracy = {}
+			syndicalism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_PROGRESSIVISM_1"
@@ -201,6 +203,7 @@ ideologies = {
 			oligarchism = {}
 			absolutism = {}
 			islamic_democracy = {}
+			constitutional_monarchy = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REACTIONARY_1"
@@ -231,6 +234,8 @@ ideologies = {
 			despotism_subtype = {}
 			militarism = {}
 			salafism = {}
+			absolute_monarchy = {}
+			robotocracy = {}
 			
 		}
 		dynamic_faction_names = {
@@ -260,7 +265,7 @@ ideologies = {
 	ultranationalism = {
 		types = {
 			ultranationalism_subtype = {}
-			corporatism = {}
+			ultra_corporatism = {}
 			national_socialism = {}
 			falangism = {}
 			ultranational_collectivism = {}
