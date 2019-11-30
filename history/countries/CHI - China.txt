@@ -1,4 +1,4 @@
-﻿capital = 613
+﻿	capital = 613
 set_politics = {
 	ruling_party = reactionary
 	last_election = "1935.11.14"
@@ -7,21 +7,101 @@ set_politics = {
 }
 set_popularities = {
 		anarchism = 0
-		neo-bolshevism = 0
+		neo-bolshevism = 10
 		internationalism = 0
 		progressivism = 5
-		social_liberalism = 10
-		social_conservatism = 20
-		reactionary = 60
+		social_liberalism = 15
+		social_conservatism = 15
+		reactionary = 50
 		despotism = 4
 		ultranationalism = 1
 }
 create_country_leader = {
-	name = "Father Death"
+	name = "Lian Zihao"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "Portrait_CHI_Father_Death.dds"
+	picture = "?"
 	expire = "4000.1.1"
 	ideology = authoritarian_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Anarchy"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = lawlessness
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Cheng Qiang"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = totalitarian_socialism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Zheng Huan"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = internationalist_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Laing Zhenya"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Lu Yimyu"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = liberal_conservatism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Deng Zhou"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = social_conservatism_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Generalissimo Zheng Lei"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = militarism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Yuan Song"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "?"
+	expire = "4000.1.1"
+	ideology = esoteric_ultranationalism
 	traits = {
 		
 	}
