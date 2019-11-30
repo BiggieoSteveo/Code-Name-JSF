@@ -6,26 +6,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 0
+		internationalism = 0
+		progressivism = 14
+		social_liberalism = 50
+		social_conservatism = 36
+		reactionary = 0
+		despotism = 0
+		ultranationalism = 0
 }
 create_country_leader = {
 	name = "Hersten Almgren"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Sweden_Hersten_Almgren.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism_subtype
+	ideology = neo-liberalism
 	traits = { }
 }

@@ -10,9 +10,9 @@ set_popularities = {
 		neo-bolshevism = 0
 		internationalism = 0
 		progressivism = 15
-		social_liberalism = 35
-		social_conservatism = 40
-		reactionary = 10
+		social_liberalism = 40
+		social_conservatism = 45
+		reactionary = 0
 		despotism = 0
 		ultranationalism = 0
 

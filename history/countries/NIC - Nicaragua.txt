@@ -1,31 +1,26 @@
 ﻿capital = 317
 set_politics = {
-	ruling_party = corporatism
+	ruling_party = ultranationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 18
+		internationalism = 16
+		progressivism = 16
+		social_liberalism = 11
+		social_conservatism = 13
+		reactionary = 1
+		despotism = 4
+		ultranationalism = 21
 }
 create_country_leader = {
 	name = "Bautista Noboa"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "portrait_nic_Bautista_Noboa.dds"
 	expire = "1965.1.1"
-	ideology = plutocracy
+	ideology = ultra_corporatism
 	traits = { }
 }

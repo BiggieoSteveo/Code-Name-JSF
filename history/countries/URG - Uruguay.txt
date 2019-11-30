@@ -6,27 +6,22 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 15
+		internationalism = 25
+		progressivism = 8
+		social_liberalism = 22
+		social_conservatism = 3
+		reactionary = 8
+		despotism = 8
+		ultranationalism = 11
 }
 create_country_leader = {
 	name = "Edmundo Velazquez"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/URG/portrait_urg_Edmundo_Velazquez.dds"
 	expire = "4000.1.1"
-	ideology = social_liberalism_subtype
+	ideology = libertarianism
 	traits = {
 		
 	}

@@ -1,42 +1,30 @@
 ﻿capital = 282
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = social_liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 23
+		internationalism = 26
+		progressivism = 19
+		social_liberalism = 27
+		social_conservatism = 5
+		reactionary = 0
+		despotism = 0
+		ultranationalism = 0
 }
 create_country_leader = { 
 	name = "Hamano Fujimaro"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Jap_Hamano_Fujimaro.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democracy
+	ideology = neo-liberalism
 	traits = { }
 }
-create_country_leader = { 
-	name = "Kajiwara Toshitsugu"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Jap_Kajiwara_Toshitsugu.dds"
-	expire = "1965.1.1"
-	ideology = death_cultism_subtype
-	traits = { }
-}
+
 #admirals
 create_navy_leader = {
 	name = "Ben Seiken"
@@ -48,7 +36,6 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 2
 }
-
 create_navy_leader = {
 	name = "Yaginuma Kaori"
 	picture = "Yaginuma_Kaori.tga"
@@ -103,7 +90,6 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 3
 }
-
 create_field_marshal = {
 	name = "Uchikoshi Takeichi"
 	picture = "Uchikoshi_Takeichi.tga"
@@ -114,7 +100,6 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 4
 }
-
 create_field_marshal = {
 	name = "Yoshitaka Chikafusa"
 	picture = "Yoshitaka_Chikafusa.tga"
@@ -125,6 +110,7 @@ create_field_marshal = {
 	planning_skill = 2
 	logistics_skill = 3
 }
+
 #generals
 create_corps_commander = {
 	name = "Demura Rai"
@@ -136,7 +122,6 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 1
 }
-
 create_corps_commander = {
 	name = "Ebina Tetsuo"
 	picture = "Ebina_Tetsuo.tga"
@@ -147,8 +132,6 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 3
 }
-
-
 create_corps_commander = {
 	name = "Hamamoto Kagetoki"
 	picture = "Hamamoto_Kagetoki.tga"
@@ -159,8 +142,6 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 3
 }
-
-
 create_corps_commander = {
 	name = "Kawashima Shukishi"
 	picture = "Kawashima_Shukishi.tga"
@@ -171,8 +152,6 @@ create_corps_commander = {
     planning_skill = 4
     logistics_skill = 3
 }
-
-
 create_corps_commander = {
 	name = "Kikyo Toyoshige"
 	picture = "Kikyo_Toyoshige.tga"
@@ -183,8 +162,6 @@ create_corps_commander = {
     planning_skill = 2
     logistics_skill = 1
 }
-
-
 create_corps_commander = {
 	name = "Samejima Korekiyo"
 	picture = "Samejima_Korekiyo.tga"
@@ -195,7 +172,6 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 2
 }
-
 create_corps_commander = {
 	name = "Takashima Kei"
 	picture = "Takashima_Kei.tga"

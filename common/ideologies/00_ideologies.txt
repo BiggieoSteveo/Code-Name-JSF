@@ -72,6 +72,7 @@ ideologies = {
 			internationalist_subtype = {}
 			permanent_revolutionary_socialism = {}
 			proletarian_internationalism = {}
+			patriotic_internationalism = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_INTERNATIONALISM_1"
@@ -236,7 +237,6 @@ ideologies = {
 			salafism = {}
 			absolute_monarchy = {}
 			robotocracy = {}
-			
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DESPOTISM_1"

@@ -1,32 +1,27 @@
 ﻿capital = 301
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = social_liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-		cluster = 7
-		internationalism = 7		
-		anarchism = 7		
-		neo-bolshevism = 7
-		technocracy = 7
-		progressivism = 7
-		social_liberalism = 8
-		social_conservatism = 8
-		reactionary = 7
-		corporatism = 7
-		autocracy = 7
-		ultranationalism = 7
-		supremacism = 7
-		death_cultism = 7
+		anarchism = 0
+		neo-bolshevism = 8
+		internationalism = 9
+		progressivism = 5
+		social_liberalism = 20
+		social_conservatism = 12
+		reactionary = 17
+		despotism = 11
+		ultranationalism = 18
 }
 create_country_leader = {
 	name = "Xavier Illescas"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/PAR/portrait_par_Xavier_Illescas.dds"
 	expire = "4000.1.1"
-	ideology = fiscal_conservatism
+	ideology = national_liberalism
 	traits = {
 		
 	}

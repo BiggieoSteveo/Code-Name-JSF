@@ -833,11 +833,6 @@ BHU = {
 	color_ui = rgb { 221 221 0 }
 }
 
-ASM = {
-	color = rgb { 145 70 49 }
-	color_ui = rgb { 221 221 0 }
-}
-
 KER = {
 	color = rgb { 83 41 18 }
 	color_ui = rgb { 221 221 0 }

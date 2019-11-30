@@ -81,6 +81,9 @@ create_country_leader = {
 	traits = { }
 }
 create_faction = NATO
+add_to_faction = WGR
+add_to_faction = JAP
+add_to_faction = AUS
 add_to_faction = ENG
 add_to_faction = FRA
 add_to_faction = SAF
@@ -97,4 +100,3 @@ add_to_faction = LUX
 add_to_faction = POR
 add_to_faction = GRE
 add_to_faction = TUR
-add_to_faction = AUS

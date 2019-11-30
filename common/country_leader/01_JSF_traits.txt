@@ -1,7 +1,0 @@
-leader_traits = {
-    vore_demigod = {
-        stability_factor = 0.10
-        death_cultism_drift = 0.05
-        army_attack_factor = 0.15
-    }
-}
