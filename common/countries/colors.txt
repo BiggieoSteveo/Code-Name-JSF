@@ -678,7 +678,7 @@ AFG = {
 }
 
 CHI = {
-	color = rgb { 119 48 124 }
+	color = rgb { 225 191 0 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -688,17 +688,17 @@ MON = {
 }
 
 BRM = {
-	color = rgb { 144 41 150 }
+	color = rgb { 49 65 27 }
 	color_ui = rgb { 138 155 116 }
 }
 
 SIA = {
-	color = rgb { 144 41 150 }
+	color = rgb { 169 208 130 }
 	color_ui = rgb { 138 155 116 }
 }
 
 VIN = {
-	color = rgb { 181 47 47 }
+	color = rgb { 238 194 64 }
 	color_ui = rgb { 138 155 116 }
 }
 
@@ -708,7 +708,7 @@ LAO = {
 }
 
 CAM = {
-	color = rgb { 124 40 40 }
+	color = rgb { 1 25 143 }
 	color_ui = rgb { 138 155 116 }
 }
 

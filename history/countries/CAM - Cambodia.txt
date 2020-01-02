@@ -1,26 +1,26 @@
 ﻿capital = 286
 set_politics = {
-	ruling_party = neo-bolshevism
+	ruling_party = reactionary
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 		anarchism = 0
-		neo-bolshevism = 80
-		internationalism = 15
-		progressivism = 5
+		neo-bolshevism = 35
+		internationalism = 0
+		progressivism = 0
 		social_liberalism = 0
-		social_conservatism = 0
-		reactionary = 0
+		social_conservatism = 25
+		reactionary = 40
 		despotism = 0
 		ultranationalism = 0
 }
 create_country_leader = {
-	name = "Meang Visna"
+	name = "Henry Doyle-West"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_CAM_Meang_Visna.dds"
+	picture = "?"
 	expire = "4000.1.1"
-	ideology = agrarian_socialism
+	ideology = reactionary_subtype
 	traits = {}
 }

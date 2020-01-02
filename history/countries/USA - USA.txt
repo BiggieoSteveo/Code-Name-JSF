@@ -100,3 +100,4 @@ add_to_faction = LUX
 add_to_faction = POR
 add_to_faction = GRE
 add_to_faction = TUR
+add_to_faction = KOR
