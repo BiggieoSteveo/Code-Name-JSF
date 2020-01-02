@@ -13,8 +13,8 @@ set_popularities = {
 		social_liberalism = 0
 		social_conservatism = 0
 		reactionary = 0
-		despotism = 0
-		ultranationalism = 100
+		despotism = 100
+		ultranationalism = 0
 }
 create_country_leader = {
 	name = "Hernando De la Cruz"
