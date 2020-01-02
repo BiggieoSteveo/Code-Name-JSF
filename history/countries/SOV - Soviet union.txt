@@ -20,7 +20,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Silayev Valeryevich"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Soviet_Silayev_Valeryevich.dds"
+	picture = "Portrait_Soviet_Sviatoslav_Babichev.dds"
 	expire = "1965.1.1"
 	ideology = proletarian_internationalism
 	traits = { }
@@ -34,11 +34,11 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Roksana Kovalevskaya"
+	name = "Silayev Valeryevich"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Soviet_Roksana_Kovalevskaya.dds"
+	picture = "Portrait_Soviet_Silayev_Valeryevich.dds"
 	expire = "1965.1.1"
-	ideology = esoteric_ultranationalism
+	ideology = free_market_socialism
 	traits = { }
 }
 create_faction = Interform
