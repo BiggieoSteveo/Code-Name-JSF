@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_USA_Valentin_Freeman.dds"
 	expire = "1965.1.1"
-	ideology = ultranational_collectivism
+	ideology = ultra_corporatism
 	traits = { }
 }
 create_country_leader = {
