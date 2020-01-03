@@ -1,21 +1,29 @@
 ﻿l_english:
  
  ###Country Names###
- BEL_neo-bolshevism:0 "People's Republic of Belgium"
- BEL_neo-bolshevism_ADJ:0 "Belgian"
- BEL_internationalism:0 "People's Republic of Belgium"
+ BEL_neo-bolshevism:0 "Belgian Commune"
+ BEL_neo-bolshevism_DEF:0 "Belgian Commune"
+ BEL_neo-bolshevism_ADJ:0 "Belgiumish"
+ BEL_internationalism:0 "Belgian Commune"
+ BEL_internationalism_DEF:0 "Belgian Commune"
  BEL_internationalism_ADJ:0 "Belgian"
  BEL_progressivism:0 "Belgium"
+ BEL_progressivism_DEF:0 "Belgium"
  BEL_progressivism_ADJ:0 "Belgian"
  BEL_social_liberalism:0 "Belgium"
+ BEL_social_liberalism_DEF:0 "Belgium"
  BEL_social_liberalism_ADJ:0 "Belgian"
  BEL_social_conservatism:0 "Belgium"
+ BEL_social_conservatism_DEF:0 "Belgium"
  BEL_social_conservatism_ADJ:0 "Belgian"
  BEL_reactionary:0 "Belgium"
+ BEL_reactionary_DEF:0 "Belgium"
  BEL_reactionary_ADJ:0 "Belgian"
  BEL_despotism:0 "Belgium"
+ BEL_despotism_DEF:0 "Belgium"
  BEL_despotism_ADJ:0 "Belgian"
  BEL_ultranationalism:0 "Belgium"
+ BEL_ultranationalism_DEF:0 "Belgium"
  BEL_ultranationalism_ADJ:0 "Belgian"
  
  ###Political Parties###
@@ -34,4 +42,4 @@
  BEL_despotism_party:0 "FP"
  BEL_despotism_party_long:0 "Frontpartij"
  BEL_ultranationalism_party:0 "VU-S"
- BEL_ultranationalism_party_long:0 "Verbond van ultranationalismische-Syndicalisme"
+ BEL_ultranationalism_party_long:0 "Verbond van ultranationalismische"

@@ -1,23 +1,31 @@
 ﻿l_english:
  
  ###Country Names###
- HOL_neo-bolshevism:0 "People's Republic of Netherlands"
- HOL_neo-bolshevism_ADJ:0 "Dutch"
- HOL_internationalism:0 "People's Republic of Netherlands"
- HOL_internationalism_ADJ:0 "Dutch"
+ HOL_neo-bolshevism:0 "Dutch Commune"
+ HOL_neo-bolshevism_DEF:0 "Dutch Commune"
+ HOL_neo-bolshevism_ADJ:0 "Netherlandsish"
+ HOL_internationalism:0 "Dutch Commune"
+ HOL_internationalism_DEF:0 "Dutch Commune"
+ HOL_internationalism_ADJ:0 "Belgian"
  HOL_progressivism:0 "Netherlands"
+ HOL_progressivism_DEF:0 "Netherlands"
  HOL_progressivism_ADJ:0 "Dutch"
  HOL_social_liberalism:0 "Netherlands"
+ HOL_social_liberalism_DEF:0 "Netherlands"
  HOL_social_liberalism_ADJ:0 "Dutch"
  HOL_social_conservatism:0 "Netherlands"
+ HOL_social_conservatism_DEF:0 "Netherlands"
  HOL_social_conservatism_ADJ:0 "Dutch"
  HOL_reactionary:0 "Netherlands"
+ HOL_reactionary_DEF:0 "Netherlands"
  HOL_reactionary_ADJ:0 "Dutch"
  HOL_despotism:0 "Netherlands"
+ HOL_despotism_DEF:0 "Netherlands"
  HOL_despotism_ADJ:0 "Dutch"
- HOL_ultranationalism:0 "Netherlands"
+ HOL_ultranationalism:0 "Dutch State"
+ HOL_ultranationalism_DEF:0 "Dutch State"
  HOL_ultranationalism_ADJ:0 "Dutch"
- 
+
  ###Political Parties###
  HOL_neo-bolshevism_party:0 "NSPN"
  HOL_neo-bolshevism_party_long:0 "Nieuwe Socialistische Partij Nederland"
