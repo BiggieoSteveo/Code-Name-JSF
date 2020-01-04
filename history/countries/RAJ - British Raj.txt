@@ -1,0 +1,27 @@
+capital = 427
+set_politics = {
+	ruling_party = reactionary
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {			
+		neo-bolshevism = 10
+		internationalism = 0
+		progressivism = 11
+		social_liberalism = 10
+		social_conservatism = 2
+		reactionary = 48
+		despotism = 9
+		ultranationalism = 10
+}
+create_country_leader = {
+	name = "Ishaan Swami"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "Portrait_RAJ_Ishaan_Swami.dds"
+	expire = "4000.1.1"
+	ideology = reactionary_subtype
+	traits = {
+		
+	}
+}
