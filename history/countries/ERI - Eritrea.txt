@@ -1,6 +1,6 @@
 ﻿capital = 550
 set_politics = {
-	ruling_party = despotism
+	ruling_party = ultranationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -13,14 +13,14 @@ set_popularities = {
 		social_liberalism = 0
 		social_conservatism = 0
 		reactionary = 20
-		despotism = 70
-		ultranationalism = 10
+		despotism = 10
+		ultranationalism = 70
 }
 create_country_leader = {
 	name = "Atatafi Motuma"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_ERI_Atatafi_Motuma.dds"
 	expire = "1965.1.1"
-	ideology = militarism
+	ideology = black_supremacism
 	traits = { }
 }
