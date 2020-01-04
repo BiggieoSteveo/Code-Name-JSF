@@ -2,6 +2,7 @@
  
  ###Country Names###
  WAS_anarchism:0 "Wasteland"
+ WAS_anarchism_DEF:0 "Wasteland"
  WAS_anarchism_ADJ:0 "Wasteland"
  ###Political Parties###
  WAS_anarchism_party:0 "Lawlessness"
