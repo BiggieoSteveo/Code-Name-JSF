@@ -1,19 +1,29 @@
 ﻿l_english:
  
  ###Country Names###
- TUR_neo-bolshevism:0 "People's Republic of Turkey"
+ TUR_neo-bolshevism:0 "Turkish Democratic Republic"
+ TUR_neo-bolshevism_DEF:0 "Turkish Democratic Republic"
  TUR_neo-bolshevism_ADJ:0 "Turkish"
- TUR_internationalism:0 "People's Republic of Turkey"
+ TUR_internationalism:0 "Turkish Democratic Republic"
+ TUR_internationalism_DEF:0 "Turkish Democratic Republic"
  TUR_internationalism_ADJ:0 "Turkish"
+ TUR_progressivism:0 "Turkey"
+ TUR_progressivism_DEF:0 "Turkey"
+ TUR_progressivism_ADJ:0 "Turkish"
  TUR_social_liberalism:0 "Turkey"
+ TUR_social_liberalism_DEF:0 "Turkey"
  TUR_social_liberalism_ADJ:0 "Turkish"
  TUR_social_conservatism:0 "Turkey"
+ TUR_social_conservatism_DEF:0 "Turkey"
  TUR_social_conservatism_ADJ:0 "Turkish"
  TUR_reactionary:0 "Turkey"
+ TUR_reactionary_DEF:0 "Turkey"
  TUR_reactionary_ADJ:0 "Turkish"
  TUR_despotism:0 "Turkey"
+ TUR_despotism_DEF:0 "Turkey"
  TUR_despotism_ADJ:0 "Turkish"
- TUR_ultranationalism:0 "Turkey"
+ TUR_ultranationalism:0 "Greater Turkey"
+ TUR_ultranationalism_DEF:0 "Greater Turkey"
  TUR_ultranationalism_ADJ:0 "Turkish"
  
  ###Political Parties###

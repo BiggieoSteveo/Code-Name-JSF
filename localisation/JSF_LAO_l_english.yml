@@ -1,6 +1,33 @@
 ﻿l_english:
  
  ###Country Names###
+ LAO_neo-bolshevism:0 "People's Republic of Laos"
+ LAO_neo-bolshevism_DEF:0 "People's Republic of Laos"
+ LAO_neo-bolshevism_ADJ:0 "Laotian"
+ LAO_internationalism:0 "People's Republic of Laos"
+ LAO_internationalism_DEF:0 "People's Republic of Laos"
+ LAO_internationalism_ADJ:0 "Laotian"
+ LAO_progressivism:0 "Laos"
+ LAO_progressivism_DEF:0 "Laos"
+ LAO_progressivism_ADJ:0 "Laotian"
+ LAO_social_liberalism:0 "Laos"
+ LAO_social_liberalism_DEF:0 "Laos"
+ LAO_social_liberalism_ADJ:0 "Laotian"
+ LAO_social_conservatism:0 "Laos"
+ LAO_social_conservatism_DEF:0 "Laos"
+ LAO_social_conservatism_ADJ:0 "Laotian"
+ LAO_reactionary:0 "Laos"
+ LAO_reactionary_DEF:0 "Laos"
+ LAO_reactionary_ADJ:0 "Laotian"
+ LAO_despotism:0 "Laos"
+ LAO_despotism_DEF:0 "Laos"
+ LAO_despotism_ADJ:0 "Laotian"
+ LAO_ultranationalism:0 "Laotian State"
+ LAO_ultranationalism_DEF:0 "Laotian State"
+ LAO_ultranationalism_ADJ:0 "Laotian"
+ 
+ 
+ 
  LAO_cluster:0 "Cluster Empire"
  LAO_cluster_DEF:0 "The Cluster Empire"
  LAO_cluster_ADJ:0 "Cluster"
