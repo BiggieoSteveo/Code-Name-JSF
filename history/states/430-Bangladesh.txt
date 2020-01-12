@@ -18,6 +18,7 @@ state={
 		}
 		add_core_of = IPR
 		add_core_of = BAN
+		add_core_of = RAJ
 
 	}
 
