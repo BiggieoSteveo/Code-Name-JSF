@@ -17,9 +17,9 @@ set_popularities = {
 		ultranationalism = 100
 }
 create_country_leader = {
-	name = "The Shah"
+	name = "Mohammad Reza Rouhani"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Iran_The_Shah.dds"
+	picture = "Portrait_Iran_Mohammad_Reza_Rouhani.dds"
 	expire = "1965.1.1"
 	ideology = wahhabism
 	traits = { }

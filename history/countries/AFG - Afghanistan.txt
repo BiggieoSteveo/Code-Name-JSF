@@ -1,7 +1,7 @@
 ﻿capital = 267
 
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = internationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -9,14 +9,14 @@ set_politics = {
 
 set_popularities = {
 		anarchism = 0
-		neo-bolshevism = 5
-		internationalism = 0
+		neo-bolshevism = 8
+		internationalism = 50
 		progressivism = 0
 		social_liberalism = 0
 		social_conservatism = 0
-		reactionary = 10
-		despotism = 30
-		ultranationalism = 55
+		reactionary = 4
+		despotism = 16
+		ultranationalism = 22
 }
 
 create_country_leader = {
@@ -24,6 +24,6 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Afghanistan_Omar_Abd_Aziz.dds"
 	expire = "1965.1.1"
-	ideology = ultranationalism_subtype
+	ideology = patriotic_internationalism
 	traits = {}
 }

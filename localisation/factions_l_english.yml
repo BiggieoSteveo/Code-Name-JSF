@@ -7,6 +7,7 @@
  FACTION_NAME_GER_none:0 "Axis"
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
  Interform:0 "Interform"
+ NATO:0 "NATO"
  templedg:0 "Temple of the Death God"
  assoc:0 "Association of Asian States"
  domination_francaise:0 "Domination Française"
@@ -23,3 +24,5 @@
  north_american_alliance:0 "North-American Alliance"
  northern_sovereignty_coalition:0 "Northern Sovereignty Coalition"
  SAF_faction_uotap:0 "African People's Union"
+ Trip:0 Tripartite Accord
+ LISN:0 LISN

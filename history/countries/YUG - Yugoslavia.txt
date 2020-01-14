@@ -24,3 +24,10 @@ create_country_leader = {
 	ideology = neo-bolshevist_subtype
 	traits = { }
 }
+create_faction = LISN
+add_to_faction = UAR
+add_to_faction = NEP
+add_to_faction = ALB
+add_to_faction = EGY
+add_to_faction = INS
+add_to_faction = UAR
