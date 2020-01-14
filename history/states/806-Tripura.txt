@@ -4,6 +4,7 @@ state={
 	history={
 		owner = IPR
 		add_core_of = IPR
+		add_core_of = RAJ
 		add_core_of = BAN
 		buildings = {
 			infrastructure = 3

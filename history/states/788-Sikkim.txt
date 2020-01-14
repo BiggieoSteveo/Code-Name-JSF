@@ -20,12 +20,11 @@ state={
 			}
 			arms_factory = 5
 			industrial_complex = 8
-			rocket_site = 5
 			radar_station = 4
 			anti_air_building = 6
 		}
 		add_core_of = IPR
-		add_core_of = SKK
+		add_core_of = RAJ
 	}
 
 	provinces={
