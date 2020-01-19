@@ -7,6 +7,10 @@ tags={
 }
 name="jsf"
 
+replace_path = "gfx/loadingscreens"
+replace_path = "common/ai_peace"
+replace_path = "common/ai_strategy"
+replace_path = "common/ai_strategy_plans"
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"
 replace_path = "events"

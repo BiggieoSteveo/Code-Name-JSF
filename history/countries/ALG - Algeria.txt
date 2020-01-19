@@ -1,7 +1,7 @@
 ﻿capital = 459
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = despotism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no

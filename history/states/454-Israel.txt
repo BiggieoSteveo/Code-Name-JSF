@@ -4,14 +4,14 @@ state={
 	name="STATE_454" #Palestine
 	manpower = 933142
 	
-	state_category = rural
+	state_category = megalopolis
 
 	history={
 		owner = ISR
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 21
-			arms_factory = 14
+			industrial_complex = 6
+			arms_factory = 6
 			air_base = 8
 			4206 = {
 				naval_base = 9

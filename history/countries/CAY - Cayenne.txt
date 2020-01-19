@@ -16,6 +16,7 @@ set_popularities = {
 		despotism = 0
 		ultranationalism = 0
 }
+
 create_country_leader = {
 	name = "Joseph Brians"
 	desc = "POLITICS_KING_ZOG_DESC"

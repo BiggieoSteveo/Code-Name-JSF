@@ -21,6 +21,6 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_KOR_Paek_Doo-Rhee.dds"
 	expire = "4000.1.1"
-	ideology = proletarian_internationalism
+	ideology = patriotic_internationalism
 	traits = {}
 }

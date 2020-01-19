@@ -21,6 +21,6 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_CSL_Krystof_Korinek.dds"
 	expire = "1965.1.1"
-	ideology = proletarian_internationalism
+	ideology = patriotic_internationalism
 	traits = { }
 }

@@ -23,15 +23,6 @@ create_country_leader = {
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_Poland_Benedykt_Bialek.dds"
 	expire = "1965.1.1"
-	ideology = proletarian_internationalism
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Ozjasz Goldberg"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Poland_Ozjasz_Goldberg.dds"
-	expire = "1965.1.1"
-	ideology = absolutism
+	ideology = patriotic_internationalism
 	traits = { }
 }

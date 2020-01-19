@@ -9,7 +9,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 2	
+			industrial_complex = 3	
 			657 = {
 				naval_base = 8
 
@@ -18,7 +18,7 @@ state={
 				naval_base = 3
 
 			}
-			dockyard = 2
+			dockyard = 3
 
 		}
 		add_core_of = ROM
@@ -29,5 +29,5 @@ state={
 	}
 	manpower=787306
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city
 }
