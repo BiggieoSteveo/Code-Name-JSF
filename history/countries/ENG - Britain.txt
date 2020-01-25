@@ -25,14 +25,6 @@ create_country_leader = {
 	traits = { }
 }	
 create_country_leader = {
-	name = "Alden Sutcliffe"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_ENG_Alden_Sutcliffe.dds"
-	expire = "1965.1.1"
-	ideology = neo-liberalism
-	traits = { }
-}
-create_country_leader = {
 	name = "Thomas Beswick"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_ENG_Thomas_Beswick.dds"

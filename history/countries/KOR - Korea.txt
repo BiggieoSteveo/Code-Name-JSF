@@ -17,10 +17,18 @@ set_popularities = {
 		ultranationalism = 0
 }
 create_country_leader = {
+	name = "Sin Nam-Il"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_KOR_Sin_Nam-Il.dds"
+	expire = "4000.1.1"
+	ideology = patriotic_internationalism
+	traits = {}
+}
+create_country_leader = {
 	name = "Paek Doo-Rhee"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "Portrait_KOR_Paek_Doo-Rhee.dds"
 	expire = "4000.1.1"
-	ideology = patriotic_internationalism
+	ideology = oligarchism
 	traits = {}
 }

@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_bloated_bureaucracy"
+		texturefile = "gfx/interface/ideas/SOV/SOV_bloated_bureaucracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_growing_ethnic_secessionism"
+		texturefile = "gfx/interface/ideas/SOV/SOV_growing_ethnic_secessionism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_nuclear_arms_race"
+		texturefile = "gfx/interface/ideas/SOV/SOV_nuclear_arms_race.dds"
+	} 
+	
+	spriteType = {
+	name = "GFX_idea_SOV_been_going_at_it_forever"
+	texturefile = "gfx/interface/ideas/SOV/SOV_been_going_at_it_forever.dds"
+	} 
+}

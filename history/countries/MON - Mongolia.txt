@@ -16,3 +16,11 @@ set_popularities = {
 		despotism = 0
 		ultranationalism = 0
 }
+create_country_leader = {
+	name = "Khudus Khalkhan"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_MON_Khudus_Khalkhan.dds"
+	expire = "1965.1.1"
+	ideology = patriotic_internationalism
+	traits = { }
+}

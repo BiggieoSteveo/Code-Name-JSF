@@ -1,0 +1,150 @@
+ideas = {
+
+	country = {
+
+
+
+		SOV_bloated_bureaucracy = {
+		
+			allowed = {
+				original_tag = SOV
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SOV_bloated_bureaucracy
+
+			modifier = {
+				political_power_cost = 0.1
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = -0.25
+				local_resources_factor = -0.1
+			}
+		}
+
+		SOV_growing_ethnic_secessionism = {
+			
+			allowed = {
+				original_tag = SOV
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SOV_growing_ethnic_secessionism
+
+			modifier = {
+				stability_factor = -0.2
+				political_power_cost = 0.2
+				consumer_goods_factor = -0.2
+				production_speed_buildings_factor = -0.2
+				conscription_factor = -0.1
+			}
+		}
+
+		SOV_nuclear_arms_race = {
+			
+			allowed = {
+				original_tag = SOV
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SOV_nuclear_arms_race
+
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.25
+          			research_speed_factor = 0.05 
+			}
+		}
+
+		SOV_been_going_at_it_forever = {
+			
+			allowed = {
+				original_tag = SOV
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SOV_been_going_at_it_forever
+
+			modifier = {
+				send_volunteers_tension = 0.10
+				lend_lease_tension = 0.10
+				drift_defence_factor = 0.25
+				social_liberalism_acceptance = -85
+				social_conservatism_acceptance = -85
+				send_volunteer_divisions_required = -0.25 
+				research_speed_factor = 0.5 
+			}
+		}
+
+	}
+	
+	
+	
+	
+	
+	political_advisor = {
+	
+	}
+	
+	army_chief = {
+	
+	}
+	
+	navy_chief = {
+	
+	}
+	
+	air_chief = {
+	
+	}
+	
+	high_command = {
+	
+	}
+	
+	tank_manufacturer = {
+	
+	}
+	
+	materiel_manufacturer = {
+	
+	}
+	
+	aircraft_manufacturer = {
+	
+	}
+	
+	naval_manufacturer = {
+	
+	}
+	
+	industrial_concern = {
+	
+	}
+	
+	theorist = {
+	
+	}
+}

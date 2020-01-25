@@ -1,4 +1,6 @@
 ﻿capital = 219
+set_research_slots = 5
+set_convoys = 300
 set_politics = {
 	ruling_party = internationalism
 	last_election = "1935.11.14"
@@ -16,6 +18,13 @@ set_popularities = {
 		reactionary = 0
 		despotism = 0
 		ultranationalism = 0
+}
+
+add_ideas = {
+	SOV_bloated_bureaucracy
+	SOV_growing_ethnic_secessionism
+	SOV_nuclear_arms_race
+	SOV_been_going_at_it_forever
 }
 create_country_leader = {
 	name = "Sviatoslav Babichev"
@@ -41,6 +50,93 @@ create_country_leader = {
 	ideology = free_market_socialism
 	traits = { }
 }
+
+
+
+#field marshalls
+create_field_marshal = {
+	name = "Slobozhanin Yevgenievich"
+	picture = "Slobozhanin_Yevgenievich.tga"
+	traits = { armor_officer offensive_doctrine expert_delegator }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Benedikt Saltanov"
+	picture = "Benedikt_Saltanov.tga"
+	traits = { offensive_doctrine logistics_wizard armor_officer trait_reckless }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Artemy Vasnev"
+	picture = "Artemy_Vasnev.tga"
+	traits = { fast_planner defensive_doctrine harsh_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+#generals
+create_corps_commander = {
+	name = "Urakov Maximovich"
+	picture = "Urakov_Maximovich.tga"
+	traits = { armor_officer winter_expert }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Mishnev Saveliy"
+	picture = "Mishnev_Saveliy.tga"
+	traits = { desert_fox armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Kartashyov Konstantinovich"
+	picture = "Kartashyov_Konstantinovich.tga"
+	traits = { winter_expert }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Chernov Aleskeevich"
+	picture = "Chernov_Aleskeevich.tga"
+	traits = { winter_expert }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Indrek Harma"
+	picture = "Indrek_Harma.tga"
+	traits = { winter_expert }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
 create_faction = Interform
 add_to_faction = CSL
 add_to_faction = DDR

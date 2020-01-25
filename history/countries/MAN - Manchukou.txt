@@ -16,3 +16,11 @@ set_popularities = {
 		despotism = 0
 		ultranationalism = 0
 }
+create_country_leader = {
+	name = "Shen Zhong"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_MAN_Shen_Zhong.dds"
+	expire = "1965.1.1"
+	ideology = patriotic_internationalism
+	traits = { }
+}

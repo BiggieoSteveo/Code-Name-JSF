@@ -15,7 +15,6 @@ set_popularities = {
 		reactionary = 0
 		despotism = 0
 		ultranationalism = 0
-
 }
 
 create_country_leader = {

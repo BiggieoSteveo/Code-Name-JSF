@@ -147,7 +147,7 @@ leader_traits = {
 
 	wallis_fancy_title = {
 		random = no
-		neutrality_drift = 0.05
+		political_advisor_cost_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -213,9 +213,8 @@ leader_traits = {
 		random = no
 		sprite = 10
 		political_power_factor = -0.1
-		stability_factor = 0.05
-		neutrality_drift = 0.05
-		consumer_goods_factor = -0.05
+		stability_factor = -0.05
+		consumer_goods_factor = 0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -245,7 +244,8 @@ leader_traits = {
 
 	humble = {
 		random = no
-		neutrality_drift = 0.05
+		war_support_factor = -0.1
+		political_power_factor = -0.05
 		consumer_goods_factor = -0.05
 		
 		ai_will_do = {
@@ -593,7 +593,7 @@ leader_traits = {
 	the_silver_president = { #Juan Andreu
 		random = no
 		consumer_goods_factor = -0.05
-		fascism_acceptance = 50
+		ultranationalism_acceptance = 50
 		ai_will_do = {
 			factor = 1
 		}
@@ -630,9 +630,9 @@ leader_traits = {
 		}
 	}	
 
-	fascist_sympathies = {
+	ultranationalism_sympathies = {
 		random = no		
-		fascism_acceptance = 70
+		ultranationalism_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
@@ -641,8 +641,9 @@ leader_traits = {
 
 	anti_communist = {
 		random = no
-		communism_acceptance = -50
-		communism_drift = -0.01
+		neo-bolshevism = -50
+		internationalism = -50
+		progressivism = -50
 
 		ai_will_do = {
 			factor = 1
@@ -684,8 +685,6 @@ leader_traits = {
 
 	anti_democrat = {
 		random = no
-		democratic_acceptance = -50
-		democratic_drift = -0.02
 		stability_factor = 0.10
 
 		ai_will_do = {
@@ -746,7 +745,6 @@ leader_traits = {
 	}
 
 	incognito = {
-		fascism_drift = 0.1
 		drift_defence_factor = 0.15
 	}
 
@@ -760,7 +758,6 @@ leader_traits = {
 	red_army_organizer = { # Trotsky's trait if invited to join the Mexican government. Combines effects of Genius Army Organizer and Communist Revolutionary
 		sprite = 12
 		army_org_factor = 0.12
-		communism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 2
@@ -830,18 +827,12 @@ leader_traits = {
 
 	disdain_for_politicians_1 = {
 		random = no
-		political_power_factor = 0.05
-		communism_drift = -0.01
-		fascism_drift = -0.01
-		democratic_drift = -0.01
+		political_power_factor = -0.05
 	}
 
 	disdain_for_politicians_2 = {
 		random = no
-		political_power_factor = 0.1
-		communism_drift = -0.02
-		fascism_drift = -0.02
-		democratic_drift = -0.02
+		political_power_factor = -0.1
 	}
 
 	queen_of_the_people = {
@@ -853,7 +844,7 @@ leader_traits = {
 	leider = {
 		random = no
 		war_support_factor = 0.1
-		fascism_acceptance = 50
+		ultranationalism_acceptance = 50
 	}
 
 	comintern_workhorse = {
@@ -871,11 +862,26 @@ leader_traits = {
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
-	communist_revolutionary = {
+	neo-bolsehvik_spokesperson = {
 		random = no
-		# Boosts Communism
+		# Boosts neo-bolshevism
 		sprite = 13
-		communism_drift = 0.1
+		stability_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				not = { has_completed_focus = USA_suspend_the_presecution }
+				factor = 0
+			}
+		}
+	}
+
+	internationalism_spokesperson = {
+		random = no
+		# Boosts internationalism
+		sprite = 13
+		stability_factor = 0.15
 		
 		ai_will_do = {
 			factor = 1
@@ -886,23 +892,23 @@ leader_traits = {
 		}
 	}
 	
-	democratic_reformer = {
+	centrist_spokesperson = {
 		random = no
-		# Boosts Democracy
+		# Boosts 
 		sprite = 13
-		democratic_drift = 0.1
+		stability_factor = 0.15
 		
 		ai_will_do = {
 			factor = 0
 		}
 	}
 	
-	fascist_demagogue = {
+	ultranationalist_spokesperson = {
 		random = no
-		# Boosts Fascism
+		# Boosts ultranationalism
 		sprite = 13
-		fascism_drift = 0.1
-		
+		stability_factor = 0.15
+
 		ai_will_do = {
 			factor = 1
 			modifier = { 
@@ -911,12 +917,12 @@ leader_traits = {
 			}
 		}
 	}
-	staunch_monarchist = {
+	reactionary_spokesperson = {
 		random = no
 		# Boosts Unaligned
 		sprite = 13
-		neutrality_drift = 0.1
-		
+		stability_factor = 0.15
+
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -931,7 +937,6 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		neutrality_drift = 0.1
 		political_power_factor = 0.15
 		
 		ai_will_do = {
@@ -943,7 +948,6 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		democratic_drift = 0.1
 		stability_factor = 0.15
 		
 		ai_will_do = {
@@ -955,7 +959,6 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		fascism_drift = 0.1
 		generate_wargoal_tension = -0.5
 		justify_war_goal_time = -0.25
 		
@@ -968,7 +971,6 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		communism_drift = 0.1
 		consumer_goods_factor = -0.05
 		
 		ai_will_do = {
@@ -987,7 +989,6 @@ leader_traits = {
 	anti_communist_crusader = {
 		sprite = 13
 		stability_factor = 0.05
-		communism_drift = -0.1
 
 		ai_will_do = {
 			factor = 1
@@ -1367,7 +1368,6 @@ leader_traits = {
 		sprite = 13
 
 		war_support_factor = 0.1
-		communism_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1391,7 +1391,6 @@ leader_traits = {
 		sprite = 13
 
 		war_support_factor = 0.1
-		neutrality_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1452,7 +1451,6 @@ leader_traits = {
 
 		non_core_manpower = 0.02
 		weekly_manpower = 250
-		communism_drift = 0.05
 		
 		ai_will_do = {
 			factor = 1
@@ -1474,7 +1472,6 @@ leader_traits = {
 	liberal_journalist = {
 		sprite = 13
 		random = no
-		democratic_drift = 0.05
 		political_power_factor = 0.05
 		
 		ai_will_do = {
@@ -1485,7 +1482,7 @@ leader_traits = {
 	anti_fascist_agent = {
 		sprite = 13
 		random = no
-		fascism_drift = -0.02
+		ultranationalism_acceptance = -50
 		stability_factor = 0.1
 		
 		ai_will_do = {
@@ -1496,7 +1493,7 @@ leader_traits = {
 	monarchist_media_mogul = {
 		sprite = 13
 		random = no
-		neutrality_drift = 0.1
+		political_power_factor = 0.05
 		
 		ai_will_do = {
 			factor = 2
